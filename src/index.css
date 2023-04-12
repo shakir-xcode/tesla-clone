@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Nunito&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+:root {
+  --background: #fff;
+  --text-primary: #171a20;
+  --text-secondary: #393c41;
+  --text-gray: #555658;
+  --menu-item-hover: rgb(250 250 245 / 0.2);
+  --btn-dark: rgba(23, 26, 32, 0.75);
+  --btn-light: rgba(244, 244, 244, 0.65);
+  --btn-dark-hover: #494949;
+}

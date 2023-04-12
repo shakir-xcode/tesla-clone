@@ -1,0 +1,21 @@
+.menu-item {
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.menu-item:hover {
+  background-color: rgba(190, 190, 190, 0.336);
+}
+
+.drawer-menu-item {
+  cursor: pointer;
+  padding: 2px 8px;
+}
+
+.drawer-menu-item:hover {
+  background-color: rgb(228 228 231 / 0.5);
+}
